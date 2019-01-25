@@ -11,8 +11,8 @@ This Repository gives the information regarding the tools and resources which ar
 
 ## Recommended Tools 
 
-- [HTML](https://www.w3schools.com/html/): 
-- [CSS](https://www.w3schools.com/css/):
+- [HTML](https://www.w3schools.com/html/): HTML is Markup Language which is used to develop the frontEnd page.
+- [CSS](https://www.w3schools.com/css/):CSS is Cascading Style Sheets which describes the style of an HTML Document.
 - [Javascript](https://www.codecademy.com/learn/learn-javascript)
 - [jQuery](https://www.w3schools.com/jquery/):
 - [Python](https://www.learnpython.org/):
