@@ -21,4 +21,8 @@ This Repository gives the information regarding the tools and resources which ar
 
 ## Recommended Resources
 
+- [Git](https://git-scm.com/):
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [WordPress](
+
 ## Contributors
