@@ -16,7 +16,7 @@ This Repository gives the information regarding the tools and resources which ar
 1. [Javascript](https://www.codecademy.com/learn/learn-javascript): Javascript helps to add fancy effects and behaviour to your website.
 1. [jQuery](https://www.w3schools.com/jquery/): jQuery is exact and we use fast javascript library to simply the HTML Events.
 1. [Python](https://www.learnpython.org/): Python is used to build server-side web applications.
-1. [Ruby](https://www.codecademy.com/learn/learn-ruby): Ruby is also used to build the server-side web applications.
+1. [Ruby](https://www.codecademy.com/learn/learn-ruby): Ruby is also used to develop the server-side web applications.
 
 
 ## Recommended Resources
