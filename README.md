@@ -26,3 +26,7 @@ This Repository gives the information regarding the tools and resources which ar
 - [WordPress](www.wordpress.com): Word Press is a open source website tool.
 
 ## Contributors
+
+My name is Nandini Doppalapudi. I am pursuing Masters in Applied Computer Science.
+
+![Favourite Image](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjEu5Sv1ongAhUD0awKHVLsArsQjRx6BAgBEAU&url=http%3A%2F%2Fgawker.com%2F5659122%2F92-percent-of-american-babies-have-a-social-networking-presence&psig=AOvVaw0X5cJVeRaJrxbfbb9LYqH9&ust=1548531188081494)
