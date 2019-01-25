@@ -29,4 +29,4 @@ This Repository gives the information regarding the tools and resources which ar
 
 My name is Nandini Doppalapudi. I am pursuing Masters in Applied Computer Science.
 
-![Favourite Image](https://www.adoptivefamilies.com/wp-content/uploads/2014/06/talking-about-adoption-news-advocacy-Domestic-adoption-myths.jpg)
+![Favourite Image](nandini.jpeg)
