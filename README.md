@@ -14,7 +14,7 @@ This Repository gives the information regarding the tools and resources which ar
 1. [HTML](https://www.w3schools.com/html/): HTML is Markup Language which is used to develop the frontEnd page.
 1. [CSS](https://www.w3schools.com/css/):CSS is Cascading Style Sheets which describes the style of an HTML Document.
 1. [Javascript](https://www.codecademy.com/learn/learn-javascript): Javascript helps to add fancy effects and behaviour to your website.
-1. [jQuery](https://www.w3schools.com/jquery/): jQuery is exact and we use fast javascript library to simply the HTML Events.
+1. [jQuery](https://www.w3schools.com/jquery/): jQuery is exact and we use fast javascript library to simplify the HTML Events.
 1. [Python](https://www.learnpython.org/): Python is used to build server-side web applications.
 
 
