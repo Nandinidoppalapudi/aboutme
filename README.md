@@ -13,7 +13,7 @@ This Repository gives the information regarding the tools and resources which ar
 
 - [HTML](https://www.w3schools.com/html/): HTML is Markup Language which is used to develop the frontEnd page.
 - [CSS](https://www.w3schools.com/css/):CSS is Cascading Style Sheets which describes the style of an HTML Document.
-- [Javascript](https://www.codecademy.com/learn/learn-javascript): Javascript helps to add fancy effects and behaviour to your website to                                                                    enhance the HTML Pages. 
+- [Javascript](https://www.codecademy.com/learn/learn-javascript): Javascript helps to add fancy effects and behaviour to your website.
 - [jQuery](https://www.w3schools.com/jquery/):
 - [Python](https://www.learnpython.org/):
 - [Ruby](https://www.codecademy.com/learn/learn-ruby):
