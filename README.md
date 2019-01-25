@@ -23,7 +23,7 @@ This Repository gives the information regarding the tools and resources which ar
 
 - [Git](https://git-scm.com/): Git is a free open source version control system.
 - [Visual Studio Code](https://code.visualstudio.com/): Visual Studio Code is a Source Code editor for the Windows.
-- [WordPress](www.wordpress.com): Word Press is a open source website tool.
+- [WordPress](https://wordpress.com): Word Press is a open source website tool.
 
 ## Contributors
 
