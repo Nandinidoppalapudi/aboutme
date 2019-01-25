@@ -15,14 +15,14 @@ This Repository gives the information regarding the tools and resources which ar
 - [CSS](https://www.w3schools.com/css/):CSS is Cascading Style Sheets which describes the style of an HTML Document.
 - [Javascript](https://www.codecademy.com/learn/learn-javascript): Javascript helps to add fancy effects and behaviour to your website.
 - [jQuery](https://www.w3schools.com/jquery/): jQuery is exact and we use fast javascript library to simply the HTML Events.
-- [Python](https://www.learnpython.org/):
-- [Ruby](https://www.codecademy.com/learn/learn-ruby):
+- [Python](https://www.learnpython.org/): Python is used to build server-side web applications.
+- [Ruby](https://www.codecademy.com/learn/learn-ruby): Ruby is also used to build the server-side web applications.
 
 
 ## Recommended Resources
 
-- [Git](https://git-scm.com/):
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [WordPress](www.wordpress.com):
+- [Git](https://git-scm.com/): Git is a free open source version control system.
+- [Visual Studio Code](https://code.visualstudio.com/): Visual Studio Code is a Source Code editor for the Windows.
+- [WordPress](www.wordpress.com): Word Press is a open source website tool.
 
 ## Contributors
