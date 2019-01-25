@@ -11,6 +11,13 @@ This Repository gives the information regarding the tools and resources which ar
 
 ## Recommended Tools 
 
+- [HTML](https://www.w3schools.com/html/): 
+- [CSS](https://www.w3schools.com/css/):
+- [Javascript](https://www.codecademy.com/learn/learn-javascript)
+- [jQuery](https://www.w3schools.com/jquery/):
+- [Python](https://www.learnpython.org/):
+- [Ruby](https://www.codecademy.com/learn/learn-ruby):
+
 
 ## Recommended Resources
 ## Contributors
