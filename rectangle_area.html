@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Nandini Doppalapudi">
+
+    <title>Nandini Doppalapudi</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+</head>
+<body class="bgimg" style="background-image: url(budodu.jpg)">
+    <header>
+        Nandini Doppalapudi
+    </header>
+    <main>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Nandini Doppalapudi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rectangle_area.html">rectangle_area</a>
+            </li>
+        </ul>
+              
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+                       
+      
+      <section>
+
+            <h2>Area of Rectangle</h2>
+
+            <div class="row">
+
+                <div class="col-md-6 mb-md-0 mb-6">
+
+                    <form id="calculate-form" name="calculate-form" action="#" method="POST">
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                        <label for="length" class="">Enter Length</label>
+                                    <input type="text" id="length" name="length" class="form-control">
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <label for="breadth" class="">Enter Breadth</label>
+                                        <input type="text" id="breadth" name="breadth" class="form-control">
+                                        
+                                    </div>
+                                </div>
+
+                            
+
+                        </div>
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="calArea()">Calculate</a> 
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <br>
+    <hr>
+
+  
+
+                        <footer class="footer">
+                            &copy; 2019 Doppalapudi Nandini
+                        </footer>
+                        
+    <script>
+            function calArea() 
+            {
+                var length = document.forms["calculate-form"]["length"].value;
+                var breadth = document.forms["calculate-form"]["breadth"].value;
+               
+                var area = length * breadth;
+                window.alert("The Area of Rectangle is: " + area);
+            }
+        </script>
+                        
+                    
+                        </body>
+                        </html>
+

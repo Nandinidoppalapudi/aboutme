@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Nandini Doppalapudi">
+
+    <title>Nandini Doppalapudi</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+</head>
+<body class="bgimg" style="background-image: url(budodu.jpg)">
+    <header>
+        Nandini Doppalapudi
+    </header>
+    <main>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Nandini Doppalapudi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rectangle_area.html">rectangle_area</a>
+            </li>
+        </ul>
+              
+          <form class="form">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <article>
+
+                       
+      
+      <section >
+
+        <h2 >Contact</h2>
+
+        <p >Send me a message including your email in the form!!!</p>
+
+        <div class="row">
+
+            <div class="col-md-9 mb-md-0 mb-5">
+
+                <form id="contact-form" name="contact-form" action="./send.php"
+                    method="POST">
+
+                    <div class="row">
+
+                        <div class="col-md-5">
+                            <div class="md-form mb-0">
+                                    <label for="name" class="Name">Name:</label>
+                                <input type="text" id="name" class="contact-form">
+                      
+                            </div>
+                        </div>
+                    </div>
+                        <div class="row">
+
+                        <div class="col-md-7">
+                            <div class="md-form mb-0">
+                                    <label for="email" class="email">Email:</label>
+                                <input type="text" id="email" name="email" class="contact-form">
+                             
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="md-form mb-0">
+                                    <label for="subject" class="subject">Subject:</label>
+                                <input type="text" id="subject" name="subject" class="contact-form">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div class="md-form">
+                                    <label for="message">Message:</label>
+                                <textarea id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                               
+                            </div>
+                        </div>
+                    </div>
+                   
+
+                </form>
+
+                <div class="text-center">
+                    <a class="btn btn-primary" onclick="send()">Send</a>
+                </div>
+
+            </div>
+        </article>
+
+            <div class="col-sm-4">
+            <aside>
+                    <section class="col-md-10" id="links" >
+                            <h3>Connect me Through Social Websites</h3><br>
+                            <ul>
+                                <li>
+                                  <a href="https://www.linkedin.com/in/nandini-doppalapudi-8a550b145/" target="_blank" rel="noopener"> LinkedIn</a>
+                                  <img src="./LinkedIn.png" alt="LinkedIn" class="rounded-circle img-fluid">
+                                </li><br>
+                                
+                                <li>
+                                  <a href="https://www.instagram.com/nandini_anjibabu/" target="_blank" rel="noopener" > Instagram</a>
+                                  <img src="./instagram.jpg" alt="Instagram" class="rounded-circle img-fluid">
+                                </li>
+                              </ul>
+              
+                          </section>
+            </aside>
+            </div>
+
+        
+
+        </div>
+
+    </section>
+
+
+</main>
+
+<br>
+<hr>
+              <hr>
+                        <footer class="footer">
+                            &copy; 2019 Doppalapudi Nandini
+                        </footer>
+                        <script>
+                                function send() 
+                                {
+                                
+                                    window.alert("your message is sent to Nandini");
+                                }
+                            </script>
+                        </body>
+                        </html>
+                        
