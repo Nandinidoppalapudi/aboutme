@@ -109,6 +109,7 @@ aside{
 #links {
     grid-column-start: 1;
     grid-row-start: 1;
+    color:black;
 }
 
 .flex-container {
