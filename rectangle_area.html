@@ -61,14 +61,14 @@
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
                                         <label for="length" class="">Enter Length</label>
-                                    <input type="text" id="length" name="length" class="form-control">
+                                    <input type="text" id="length" name="length"  value='7' class="form-control">
                                     
                                 </div>
                             </div>
                             <div class="col-md-6">
                                     <div class="md-form mb-0">
                                         <label for="breadth" class="">Enter Breadth</label>
-                                        <input type="text" id="breadth" name="breadth" class="form-control">
+                                        <input type="text" id="breadth" name="breadth" value='9'class="form-control">
                                         
                                     </div>
                                 </div>
@@ -80,7 +80,8 @@
                     </form>
 
                     <div class="text-center text-md-left">
-                        <a class="btn btn-primary" onclick="calArea()">Calculate</a> 
+                        <button id="clicker" class="btn btn-primary">Click me!</button>
+                        <p id="result"></p>
                     </div>
 
                 </div>
@@ -101,17 +102,29 @@
                             &copy; 2019 Doppalapudi Nandini
                         </footer>
                         
-    <script>
-            function calArea() 
-            {
-                var length = document.forms["calculate-form"]["length"].value;
-                var breadth = document.forms["calculate-form"]["breadth"].value;
-               
-                var area = length * breadth;
-                window.alert("The Area of Rectangle is: " + area);
-            }
-        </script>
+                        <script>
+                            console.log('SCRIPT START')
                         
+                            console.log('Declare testable functions.....................')
+                        
+                            function myFunction(l,b) {
+                              return l*b;
+                            }
+                          
+                        
+                            console.log('Declare event listeners .......................')
+                        
+                            document.getElementById('clicker').addEventListener('click', function () {
+                              const i = document.getElementById('length').value
+                              const j = document.getElementById('breadth').value
+                              const res = 'Areaof the rectangle is ' + myFunction(i,j) + '.'
+                              document.getElementById('result').innerHTML = res
+                            })
+                        
+                            console.log('SCRIPT END')
+                          </script>
+                        
+                          
                     
                         </body>
                         </html>
