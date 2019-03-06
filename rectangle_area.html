@@ -1,176 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Nandini Doppalapudi">
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Nandini Doppalapudi">
 
-    <title>Nandini Doppalapudi</title>
+  <title>Nandini Doppalapudi</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./index.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
+
 <body class="bgimg" style="background-image: url(budodu.jpg)">
-    <header>
-        Nandini Doppalapudi
-    </header>
-    <main>
+  <header>
+    Nandini Doppalapudi
+  </header>
+  <main>
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Nandini Doppalapudi</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="rectangle_area.html">rectangle_area</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="test.html">Testing Results</a>
-              </li>
+      <a class="navbar-brand" href="#">Nandini Doppalapudi</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rectangle_area.html">rectangle_area</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="test.html">Testing Results</a>
+          </li>
         </ul>
-              
-          <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
 
-                       
-      
-      <section>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
-            <h2>Area of Rectangle</h2>
+
+
+    <section>
+
+      <h2>Area of Rectangle</h2>
+
+      <div class="row">
+
+        <div class="col-md-6 mb-md-0 mb-6">
+
+          <form id="calculate-form" name="calculate-form" action="#" method="POST">
 
             <div class="row">
 
-                <div class="col-md-6 mb-md-0 mb-6">
-
-                    <form id="calculate-form" name="calculate-form" action="#" method="POST">
-
-                        <div class="row">
-
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                        <label for="length" class="">Enter Length</label>
-                                    <input type="text" id="length" name="length"  value='7' class="form-control">
-                                    
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <label for="breadth" class="">Enter Breadth</label>
-                                        <input type="text" id="breadth" name="breadth" value='9'class="form-control">
-                                        
-                                    </div>
-                                </div>
-
-                            
-
-                        </div>
-
-                    </form>
-
-                    <div class="text-center text-md-left">
-                        <button id="clicker" class="btn btn-primary">Click me!</button>
-                        <p id="result"></p>
-           
-
-                        <p id="one"> </p>    
-                    
-                        <p id="two"></p>
-                    
-                    
-                    </div>
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <label for="length" class="">Enter Length</label>
+                  <input type="text" id="length" name="length" value='7' class="form-control">
 
                 </div>
+              </div>
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <label for="breadth" class="">Enter Breadth</label>
+                  <input type="text" id="breadth" name="breadth" value='9' class="form-control">
+
+                </div>
+              </div>
+
+
 
             </div>
-            <div class="text-center text-md-left">
-                    <h3 class="h1-responsive font-weight-bold text-left my-4">jQuery Reponse Event</h3>
-                    <p>This is a paragraph which is hided by using jQuery.</p>
+
+          </form>
+
+          <div class="text-center text-md-left">
+            <button id="clicker" class="btn btn-primary">Click me!</button>
+            <p id="result"></p>
+
+
+            <p id="one"> </p>
+
+            <p id="two"></p>
+
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="text-center text-md-left">
+        <h3 class="h1-responsive font-weight-bold text-left my-4">jQuery Reponse Event</h3>
+        <p>This is a paragraph which is hided by using jQuery.</p>
+
+        <button class="btn1">Hide</button>
+        <button class="btn2">Show</button>
+      </div>
+
+    </section>
+
+    <p id="one"></p>
+
+
+  </main>
+
+  <br>
+  <hr>
+
+
+
+  <footer class="footer">
+    &copy; 2019 Doppalapudi Nandini
+  </footer>
+
+  <script>
+    console.log('SCRIPT START')
+
+    console.log('Declare testable functions.....................')
+
+    function myFunction(l, b) {
+      return l * b;
+    }
+
+
+    console.log('Declare event listeners .......................')
+
+    document.getElementById('clicker').addEventListener('click', function () {
+      const i =parseInt(document.getElementById('length').value) 
+      const j = parseInt(document.getElementById('breadth').value) 
+      const res = 'Area of the rectangle is ' + myFunction(i, j) + '.'
+      document.getElementById('result').innerHTML = res
+
+      localStorage.setItem('element1',i);
+    localStorage.setItem('element2',j);
+    // document.getElementById('one').innerHTML = "element has id one.";
+    // document.getElementById('two').innerHTML = "element has id two.";
+
+   document.getElementById('one').innerHTML= localStorage.getItem(element1);
+    })
     
-                    <button class="btn1">Show</button>
-                    <button class="btn2">Hide</button>
-                </div>
-
-        </section>
-       
-
-
-    </main>
-
-    <br>
-    <hr>
-
   
 
-                        <footer class="footer">
-                            &copy; 2019 Doppalapudi Nandini
-                        </footer> 
-                        
-                        <script>
-                            console.log('SCRIPT START')
-                        
-                            console.log('Declare testable functions.....................')
-                        
-                            function myFunction(l,b) {
-                              return l*b;
-                            }
-                          
-                        
-                            console.log('Declare event listeners .......................')
-                        
-                            document.getElementById('clicker').addEventListener('click', function () {
-                              const i = document.getElementById('length').value
-                              const j = document.getElementById('breadth').value
-                              const res = 'Area of the rectangle is ' + myFunction(i,j) + '.'
-                              document.getElementById('result').innerHTML = res
-                            })
-                            document.getElementById('one').innerHTML="element has id one.";
-                            document.getElementById('two').innerHTML="element has id two.";
 
-                        
-                            console.log('SCRIPT END')
-                          </script>
-                            <div>
-                        
-                                    <script>
-                                    function loadDoc() {
-            
-                                        var str="AJAX stands for Asynchronous JavaScript And XML.";
-                                      var xhttp = new XMLHttpRequest();
-                                      xhttp.onreadystatechange = function() {
-                                        if (this.readyState == 4 && this.status == 200) {
-                                          document.getElementById("demo").innerHTML =
-                                          this.responseText;
-                                        }
-                                      };
-                                      xhttp.open("GET","ajax_info.txt", true);
-                                      
-                                      xhttp.send();
-                                    }
-                                    </script>
-                          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-                          crossorigin="anonymous"></script>
-                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-                          crossorigin="anonymous"></script>
-                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-                          crossorigin="anonymous"></script>
-                        
-                          
-                    
-                        </body>
-                        </html>
+    console.log('SCRIPT END')
+  </script>
+  <div id="ajaxdemo">
+    <h3 class="h1-responsive font-weight-bold text-left my-4">Ajax Response Event 2 </h3>
 
+    
+    <button type="button" class="btn btn-primary" onclick="loadDoc()">Change Content</button>
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+<div>
+    
+    <script>
+    function loadDoc() {
+
+        var str="AJAX stands for Asynchronous JavaScript And XML.";
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("ajaxdemo").innerHTML =
+          this.responseText;
+        }
+      };
+      xhttp.open("GET","./nandini.txt", true);
+      
+      xhttp.send();
+    }
+    </script>
+
+
+
+
+<script>
+$(document).ready(function () {
+$(".btn1").click(function () {
+    $("p").hide();
+});
+$(".btn2").click(function () {
+    $("p").show();
+});
+});
+</script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
